@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto+Slab:wght@500&display=swap');
+
+body, section, article, main, aside, footer, img, nav, ul, li, a, h1, div, p, figure{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-align: center;
+    box-sizing: border-box;
+} 
+html{
+    font-size: 16px;
+    background-color: black;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif; 
+    size: 32px;
+}
+
+section .logo_kenzieflix{
+    width: auto;
+    height: 150px;
+    background-color: black;
+    text-align: center;
+    margin-top: 10ch;
+    margin-bottom: 2px;
+} 
+
+section .logo_kenzieflix img:hover{
+    transform: none;
+}
+
+section h1{
+    width: auto;
+    height: 60;
+    color: aliceblue;
+    font-size: 4ch;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+section ul{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+}
+
+.perfis{
+    border: 1px solid black;
+    height: 220x;
+    width: 830px;
+}
+.user{
+    width: 166px;
+    height: 166px;
+}
+
+img:hover{
+    transform: scale(1.2);
+    box-sizing: border-box;
+}
+
+.image{
+    border-radius: 5px;
+    margin: 20px; 
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+div.box{
+    align-items: center; 
+    padding-top: 100px;     
+}
+
+#btnn{
+    width: 160px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    border-style: double;
+}
+
+div.box button:hover{
+    filter: invert(100%); 
+}
+
+section p{
+    color: #9C9C9C;      
+}
+
+li:hover{
+    color: white;
+}
+
+.container ul li{
+    list-style-type: none;
+}
